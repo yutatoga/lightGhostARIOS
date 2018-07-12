@@ -700,6 +700,10 @@ const float CAMERA_FRAME_JPEG_COMPRESSION_FACTOR = 0.5;
                            options:ARSessionRunOptionResetTracking];
 }
 
+-(BOOL)prefersHomeIndicatorAutoHidden{
+    return true;
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
